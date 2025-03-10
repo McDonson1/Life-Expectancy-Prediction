@@ -5,8 +5,8 @@ import pandas as pd
 import sklearn
 
 # Load the saved model and scaler
-with open(r"Life_expectancy_randomforestregressor_model.pkl", "rb") as model_file:
-    model = pickle.load(model_file)
+# with open(r"Life_expectancy_randomforestregressor_model.pkl", "rb") as model_file:
+model = pickle.load(open("Life_expectancy_randomforestregressor_model.pkl", "rb"))
 
 # with open(r"C:\Users\dell\Desktop\Jup\scaler.pkl", "rb") as scaler_file:
 #     scaler = pickle.load(scaler_file)
